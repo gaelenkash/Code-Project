@@ -37,6 +37,7 @@ Abstract of the article
 Published date in month/day/year hour:minute am|pm tz format. For example: 9/15/2017 8:34 PM EDT
 Display total number of results that match current search.
 By default, display results from the "home" section
-Extra Credit
+
+####Extra Credit
 
 For a small bit of extra credit, display all the published dates in the Fiji time zone (FJT).
