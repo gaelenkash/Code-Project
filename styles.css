@@ -1,0 +1,28 @@
+*{
+	background: rgb(243, 243, 243);
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.news-group{
+	/*border: 1px solid black;*/
+}
+
+.news-group:nth-child(odd){
+	clear: both;
+}
+
+.news-group a:hover{
+	text-decoration: none;
+}
+
+.toggle:hover{
+	cursor: pointer;
+}
+
+.abstract{
+	text-align: justify;
+	/*text-indent: 10px;*/
+}
