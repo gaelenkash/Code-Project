@@ -63,7 +63,7 @@ class SinglePageApp extends React.Component{
 				<h1 className="text-center">New York Times Top News</h1>
 				<div className="form-group">
 					<label className="col-xs-2 control-label">Section </label>
-					<div className="col-xs-6">
+					<div className="col-xs-7">
 						<select value={this.state.section} onChange={(event)=>this.changeSection(event.target.value)} className="form-control">
 							{values.map((value)=>{
 								return (
@@ -77,10 +77,10 @@ class SinglePageApp extends React.Component{
 				</div>
 				<div className="form-group">
 					<label className="col-xs-2 control-label">Search </label>
-					<div className="col-xs-6">
+					<div className="col-xs-7">
 						<input type="text" value={this.state.searchTerm} onChange={(event)=>this.search(event.target.value)} className="form-control"/>
 					</div>
-					<div className="col-xs-4 no-padding">
+					<div className="col-xs-3 no-padding">
 						<label className="control-label">Showing {this.state.searchResults.length}/{this.state.results.length} results</label>
 					</div>
 				</div>
